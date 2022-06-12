@@ -237,11 +237,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #000;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #000000;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11401,7 +11401,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #3879e0;
 }
 
 .dev-icons {
@@ -11426,11 +11426,38 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
+
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 576px){
+    .img-profile-main{
+       display: block;
+       height: 170px;
+       width: 150px;
+       margin-bottom: 15px;
+       object-fit: fill;
+    }
+}
+
+@media (min-width: 360px){
+  .img-profile-main{
+     display: block;
+     height: 170px;
+     width: 150px;
+     margin-bottom: 15px;
+     object-fit: fill;
+  }
+}
+
+@media (min-width: 992px){
+  .img-profile-main{
+     display:none;
   }
 }
