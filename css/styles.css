@@ -11439,6 +11439,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 576px){
     .img-profile-main{
        display: block;
+       margin: auto;
        height: 170px;
        width: 150px;
        margin-bottom: 15px;
@@ -11449,6 +11450,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 360px){
   .img-profile-main{
      display: block;
+     margin: auto;
      height: 170px;
      width: 150px;
      margin-bottom: 15px;
